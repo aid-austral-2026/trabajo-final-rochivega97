@@ -97,7 +97,7 @@ tab_datos <- nav_panel(
         "(identificador del cliente). Antes de unirlas en un único data frame",
         "con una fila por lead se realizaron las siguientes verificaciones:"
       ),
-      DTOutput("tabla_chequeos"),
+      DTOutput("tabla_chequeos", fill = FALSE),
       p(
         class = "mt-3",
         "Las claves son únicas y consistentes, así que la unión se hizo con",
@@ -119,32 +119,29 @@ tab_datos <- nav_panel(
         "métodos de imputación contra un método simple y se informan los",
         "supuestos."
       ),
-      layout_columns(
-        col_widths = c(5, 7),
-        card(
-          full_screen = TRUE,
-          card_header("Faltantes por variable"),
-          checkboxGroupInput(
-            "tipos_faltante",
-            NULL,
-            choices = c("Estructural", "Mixto", "No estructural"),
-            selected = c("Estructural", "Mixto", "No estructural"),
-            inline = TRUE
-          ),
-          plotOutput("grafico_faltantes", height = "520px")
+      card(
+        full_screen = TRUE,
+        card_header("Faltantes por variable"),
+        checkboxGroupInput(
+          "tipos_faltante",
+          NULL,
+          choices = c("Estructural", "Mixto", "No estructural"),
+          selected = c("Estructural", "Mixto", "No estructural"),
+          inline = TRUE
         ),
-        card(
-          full_screen = TRUE,
-          card_header("Diccionario de faltantes"),
-          p(
-            class = "text-muted",
-            "Cada regla estructural se verificó con los datos: la variable",
-            "falta en todos los registros que cumplen la condición y solo en",
-            "ellos. En las mixtas, la regla vale para una parte de los",
-            "faltantes y el resto son datos no cargados."
-          ),
-          DTOutput("tabla_diccionario_faltantes")
-        )
+        plotOutput("grafico_faltantes", height = "520px", fill = FALSE)
+      ),
+      card(
+        full_screen = TRUE,
+        card_header("Diccionario de faltantes"),
+        p(
+          class = "text-muted",
+          "Cada regla estructural se verificó con los datos: la variable",
+          "falta en todos los registros que cumplen la condición y solo en",
+          "ellos. En las mixtas, la regla vale para una parte de los",
+          "faltantes y el resto son datos no cargados."
+        ),
+        DTOutput("tabla_diccionario_faltantes", fill = FALSE)
       ),
       card(
         full_screen = TRUE,
@@ -206,7 +203,7 @@ tab_datos <- nav_panel(
         multiple = TRUE,
         width = "100%"
       ),
-      DTOutput("tabla_crm")
+      DTOutput("tabla_crm", fill = FALSE)
     )
   )
 )
@@ -404,7 +401,7 @@ tab_geografia <- nav_panel(
       card(
         full_screen = TRUE,
         card_header("Tasa de éxito por país (proyección Equal Earth)"),
-        plotOutput("mapa_estatico", height = "380px"),
+        plotOutput("mapa_estatico", height = "560px", fill = FALSE),
         p(
           class = "text-muted",
           "Mapa estático hecho con", code("sf"), "y", code("ggplot2"), ".",
@@ -416,7 +413,7 @@ tab_geografia <- nav_panel(
       card(
         full_screen = TRUE,
         card_header("Indicadores por región"),
-        DTOutput("tabla_mapa")
+        DTOutput("tabla_mapa", fill = FALSE)
       )
     ),
     card(
