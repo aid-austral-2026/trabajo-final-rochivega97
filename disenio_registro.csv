@@ -1,0 +1,54 @@
+tabla,nro_variable,nombre_variable,tipo_dato,descripcion
+leads,1,gen_id,character,Identificador del lead
+leads,2,split,character,"Partición del benchmark (train, test, open, excluded)"
+leads,3,type_initial,character,Tipo de registro al crearse (lead u oportunidad)
+leads,4,type,character,Tipo de registro actual (lead u oportunidad)
+leads,5,team,character,Equipo de ventas
+leads,6,user_login,character,Usuario del vendedor asignado
+leads,7,gen_partner_id,character,Identificador del cliente (vacío si es un contacto nuevo)
+leads,8,cargo_original,character,Cargo del contacto tal como fue cargado (campo function de Odoo)
+leads,9,country_code,character,Código de país del lead
+leads,10,state_code,character,Código de provincia o estado
+leads,11,city,character,Ciudad
+leads,12,source,character,Origen del lead
+leads,13,medium,character,Medio por el que llegó el lead
+leads,14,campaign,character,Campaña de marketing
+leads,15,tags,character,Etiquetas separadas por punto y coma
+leads,16,priority,numeric,Prioridad en estrellas (0 a 3)
+leads,17,expected_revenue,numeric,Monto esperado en USD (faltante si no se cargó)
+leads,18,recurring_revenue,numeric,Ingreso recurrente esperado en USD
+leads,19,recurring_plan,character,Plan de suscripción
+leads,20,date_deadline,date,Fecha estimada de cierre
+leads,21,email_state,character,Calidad del email (correct o incorrect)
+leads,22,phone_state,character,Calidad del teléfono (correct o incorrect)
+leads,23,create_date,datetime,Fecha y hora de creación
+leads,24,date_open,datetime,Fecha y hora de asignación a un vendedor
+leads,25,date_qualified,datetime,Fecha y hora en que pasó a la etapa Qualified
+leads,26,date_proposition,datetime,Fecha y hora en que pasó a la etapa Proposition
+leads,27,date_conversion,datetime,Fecha y hora de conversión de lead a oportunidad
+leads,28,date_closed,datetime,Fecha y hora de cierre
+leads,29,date_last_stage_update,datetime,Fecha y hora del último cambio de etapa
+leads,30,stage,character,Etapa del embudo
+leads,31,outcome,character,"Resultado (won, lost u open)"
+leads,32,lost_reason,character,Motivo de pérdida
+leads,33,ganada,logical,Indica si la oportunidad se ganó
+leads,34,es_duplicado,logical,Indica si se cerró como duplicado
+leads,35,cargo,character,Cargo normalizado
+leads,36,nivel_cargo,character,Nivel jerárquico del cargo
+leads,37,vendedor,character,Vendedor asignado (Sin asignar si falta)
+leads,38,motivo_perdida,character,Motivo de pérdida (Sin motivo registrado si falta)
+leads,39,calidad_contacto,character,Calidad combinada de email y teléfono
+leads,40,fecha_creacion,date,Fecha de creación
+leads,41,mes_creacion,date,Mes de creación (primer día del mes)
+leads,42,ciclo_dias,numeric,Días entre la creación y el cierre
+leads,43,llego_calificada,logical,Indica si alcanzó la etapa Qualified
+leads,44,llego_propuesta,logical,Indica si alcanzó la etapa Proposition
+partners,1,gen_partner_id,character,Identificador del cliente
+partners,2,country_code,character,Código de país del cliente
+partners,3,account_type,character,Tipo de cuenta (end o reseller)
+partners,4,known_since,datetime,Fecha desde la que se conoce al cliente
+scores,1,gen_id,character,Identificador del lead
+scores,2,odoo_pls_default,numeric,Probabilidad del PLS de Odoo con la configuración por defecto (proporción)
+scores,3,odoo_pls_extended,numeric,Probabilidad del PLS de Odoo con campos adicionales (proporción)
+scores,4,automl_12_fields,numeric,Probabilidad del modelo AutoML con 12 campos (solo conjunto de prueba)
+scores,5,automl_20_fields,numeric,Probabilidad del modelo AutoML con 20 campos (solo conjunto de prueba)

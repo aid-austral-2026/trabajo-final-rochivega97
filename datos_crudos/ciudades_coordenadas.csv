@@ -1,0 +1,78 @@
+city,country_code,estado,lat,lng
+Abu Dhabi,AE,Abu Dhabi Emirate,24.45118,54.39696
+Dubai,AE,Dubai,25.07725,55.30927
+Brisbane,AU,Queensland,-27.46794,153.02809
+Melbourne,AU,Victoria,-37.814,144.96332
+Sydney,AU,New South Wales,-33.86785,151.20732
+Rio de Janeiro,BR,Rio de Janeiro,-22.90642,-43.18223
+São Paulo,BR,São Paulo,-23.5475,-46.63611
+Calgary,CA,Alberta,51.05011,-114.08529
+Edmonton,CA,Alberta,53.55014,-113.46871
+Mississauga,CA,Ontario,43.5789,-79.6583
+Montréal,CA,Quebec,45.50884,-73.58781
+Ottawa,CA,Ontario,45.41117,-75.69812
+Québec,CA,Quebec,46.81228,-71.21454
+Toronto,CA,Ontario,43.70643,-79.39864
+Vancouver,CA,British Columbia,49.24966,-123.11934
+Victoria,CA,British Columbia,48.4359,-123.35155
+Berlin,DE,State of Berlin,52.52437,13.41053
+Frankfurt,DE,Hesse,50.11552,8.68417
+Hamburg,DE,Free and Hanseatic City of Hamburg,53.55073,9.99302
+Munich,DE,Bavaria,48.13743,11.57549
+Barcelona,ES,Catalonia,41.38879,2.15899
+Lille,FR,Hauts-de-France,50.63391,3.05512
+Lyon,FR,Auvergne-Rhône-Alpes,45.74906,4.84789
+Paris,FR,Île-de-France Region,48.85341,2.3488
+Birmingham,GB,England,52.48142,-1.89983
+Bristol,GB,England,51.45523,-2.59665
+Edinburgh,GB,Scotland,55.95206,-3.19648
+Leeds,GB,England,53.79648,-1.54785
+London,GB,England,51.50853,-0.12574
+Manchester,GB,England,53.48095,-2.23743
+Cork,IE,Munster,51.89797,-8.47061
+Dublin,IE,Leinster,53.33306,-6.24889
+Bengaluru,IN,Karnataka,12.97194,77.59369
+Mumbai,IN,Maharashtra,19.07283,72.88261
+Milan,IT,Lombardy,45.46427,9.18951
+Rome,IT,Lazio,41.89193,12.51133
+Ciudad de México,MX,Mexico City,19.42847,-99.12766
+Guadalajara,MX,Jalisco,20.67738,-103.34749
+Monterrey,MX,Nuevo León,25.68435,-100.31721
+Amsterdam,NL,North Holland,52.37403,4.88969
+Rotterdam,NL,South Holland,51.9225,4.47917
+Utrecht,NL,Utrecht,52.09083,5.12222
+Singapore,SG,NA,1.28967,103.85007
+Atlanta,US,Georgia,33.749,-84.38798
+Austin,US,Texas,30.26715,-97.74306
+Bellevue,US,Washington,47.61038,-122.20068
+Boston,US,Massachusetts,42.35843,-71.05977
+Boulder,US,Colorado,40.01499,-105.27055
+Brooklyn,US,New York,40.6501,-73.94958
+Buffalo,US,New York,42.88645,-78.87837
+Cambridge,US,Massachusetts,42.3751,-71.10561
+Charlotte,US,North Carolina,35.22709,-80.84313
+Chicago,US,Illinois,41.85003,-87.65005
+Dallas,US,Texas,32.78306,-96.80667
+Denver,US,Colorado,39.73915,-104.9847
+Houston,US,Texas,29.76328,-95.36327
+Irvine,US,California,33.66946,-117.82311
+Los Angeles,US,California,34.05223,-118.24368
+Miami,US,Florida,25.77427,-80.19366
+Naperville,US,Illinois,41.78586,-88.14729
+New York,US,New York,40.71427,-74.00597
+Orlando,US,Florida,28.53834,-81.37924
+Philadelphia,US,Pennsylvania,39.95238,-75.16362
+Phoenix,US,Arizona,33.44838,-112.07404
+Pittsburgh,US,Pennsylvania,40.44062,-79.99589
+Portland,US,Oregon,45.52345,-122.67621
+Raleigh,US,North Carolina,35.7721,-78.63861
+Sacramento,US,California,38.58157,-121.4944
+San Antonio,US,Texas,29.42412,-98.49363
+San Diego,US,California,32.71571,-117.16472
+San Francisco,US,California,37.77493,-122.41942
+San Jose,US,California,37.33939,-121.89496
+Seattle,US,Washington,47.60621,-122.33207
+Spokane,US,Washington,47.65966,-117.42908
+Tampa,US,Florida,27.94752,-82.45843
+Tucson,US,Arizona,32.22174,-110.92648
+Madrid,ES,Madrid,40.4165,-3.70256
