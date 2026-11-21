@@ -561,14 +561,14 @@ server <- function(input, output, session) {
       addLegend(
         position = "bottomright",
         pal = paleta,
-        values = valores,
+        # Sin los NA: la etiqueta "Pocos casos" se superpone con la escala
+        values = na.omit(valores),
         title = titulo,
         labFormat = labelFormat(
           transform = if (indicador == "tasa") \(x) 100 * x else identity,
           suffix = if (indicador == "tasa") " %" else "",
           big.mark = "."
-        ),
-        na.label = "Pocos casos"
+        )
       ) |>
       addLayersControl(
         baseGroups = c("Mapa claro", "Satelital"),
